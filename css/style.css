@@ -1,3 +1,80 @@
+#red{
+    color: red;
+    display: inline;
+    padding-left: 1400px;
+    font-size: larger;
+
+}
+#normal{
+    display: inline;
+    
+}
+.log{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 8px;
+    border-left: 2.5px solid  grey;
+    border-right: 2.5px solid  grey;
+}
+
+.reg{
+    display: inline;
+    border-right: 2.5px solid  grey;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.user{
+font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 24;
+margin-bottom: 1px;
+}
+.pass{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24;
+    margin-bottom: 1px;
+}
+
+.username{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    
+}
+.password{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    
+}
+.form {
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    background:lightseagreen;
+    max-width: 220px;
+    margin: 0 auto 100px;
+    padding: 40px;
+
+    text-align:center;
+    
+
+}
+.login{
+    border-radius: 40px;
+    border-color: lightgreen;
+    background-color: lightgreen;
+}
+img{
+    position: relative;
+    width: 120px;
+    height:120px;
+    margin: 0mm;
+    padding: 0mm;
+    display: block;
+}
+
 body{
     background-color: aquamarine;
+}
+#footer{
+    text-align: center;
+    font-size: medium;
 }
