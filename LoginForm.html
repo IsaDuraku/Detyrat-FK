@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="LoginForm.css">
+  <script defer src="LoginForm.js"></script>
+  <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#contact" class="">Contact Us</a>
+  <a href="#about">About</a>
+</div>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h2 class="login-header">Login</h2><h2 class="reg">Register</h2>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+    <style>html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color:lightgreen;
+}
+
+#main-holder {
+  width: 50%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: lightskyblue;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+#login-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#error-msg-second-line {
+  display: block;
+}
+
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.login-form-field::placeholder {
+  color: ;
+}
+
+.login-form-field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+.login-header{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 8px;
+    border-left: 2.5px solid  grey;
+    border-right: 2.5px solid  grey;
+}
+.reg{
+    display: inline;
+    border-right: 2.5px solid  grey;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#login-form-submit {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color:green;
+  cursor: pointer;
+  outline: none;
+}
+        .topnav {
+  background-color: lightgreen;
+  overflow: hidden;
+            width: 100%;
+}
+
+.topnav a {
+  float: left;
+    justify-content: space-around;
+  display: block;
+  color: cadetblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+      
+      
+      
+      
+      
+      </style>
+      <div class="Footer"><footer><B>&copy;2020 - GK - <a class="active" href="https://github.com/IsaDuraku/Detyrat-FK">GitHub</a></B></footer></div>
+        <style>
+            .Footer{
+                font-family: Helvetica, Sans-Serif;
+                color:#282828;
+                text-align: center;
+                padding-top: 20px;
+            }
+  
+  </main>
+</body>
+
+</html>
